@@ -1,0 +1,20 @@
+.widget {
+  background-color: $light-blue;
+  margin-bottom: $xl-size;
+}
+
+.widget-header {
+  background-color: $blue;
+  color: $off-white;
+  padding: $s-size;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget__message {
+  text-align: center;
+  color: lighten($color: $light-blue, $amount: 20%);
+}
+.widget-header__title {
+  font-size: $m-size;
+}

@@ -1,0 +1,31 @@
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+  word-break: break-all;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.modal {
+  background-color: $light-blue;
+  color: white;
+  max-width: 300px;
+  text-align: center;
+  padding: $l-size;
+}
+.modal__title {
+  margin: 0 0 $l-size 0;
+}
+.modal__body {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 $l-size 0;
+}

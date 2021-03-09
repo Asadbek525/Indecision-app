@@ -1,0 +1,13 @@
+.option {
+  display: flex;
+  justify-content: space-between;
+  background-color: darken($color: $light-blue, $amount: 10%);
+  margin: 2px 0;
+  padding: $s-size;
+  max-width: 100%;
+}
+.option__text {
+  font-size: 20px;
+  word-break: break-all;
+  color: white;
+}
